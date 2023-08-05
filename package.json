@@ -1,6 +1,7 @@
 {
   "name": "swapper",
   "version": "0.0.0",
+  "homepage": "https://masd04.github.io/Portfolio/",
   "private": false,
   "scripts": {
     "dev": "vite",

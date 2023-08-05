@@ -9,7 +9,7 @@ import About from './pages/About';
 function App() {
   return (
     <div className="bg-primary">
-    <Router>
+    <Router basename={"/Portfolio"}>
     
     
 
