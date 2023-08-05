@@ -1,0 +1,308 @@
+            ---------------------   HOME TEMP   ------------------------
+
+<div className={`${styles.heading1} mt-6`}>
+        <h1>Work experience</h1>
+      </div>
+
+      <div className={`${styles.heading2} mt-8`}>
+        <h1>Moneta Money Bank</h1>
+      </div>
+
+      <div className={`flex flex-col sm:flex-row flex-wrap w-[90%] sm:w-full mb-8 justify-center`}>
+        <div className={`${styles.card_xp} ${styles.flexItem}`}>
+          <h1 className={`${styles.xpH1}`}>SW Tester</h1>
+          <div className={styles.cardContent}>
+            <p className={`${styles.paragraph_xp}`}>
+              Testování interních aplikací společnosti, <br />
+              testy API. Komunikace s vývojáři a správa testovacích scénářů.
+              Práce s json, xml, SQL, SalesForce, Jira, Postman + interní aplikace
+              <br />
+            </p>
+            <div className={`${styles.dateWrapper}`}>
+              <div className={`${styles.date}`}>
+                <b>[ 01.10.2021 – 0.1.09.2022 ]</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.card_xp} ${styles.flexItem}`}>
+          <h1 className={`${styles.xpH1}`}>SW analytik a developer</h1>
+          <div className={styles.cardContent}>
+            <p className={`${styles.paragraph_xp}`}>
+              Analýza a vývoj procesů v rámci interní aplikace společnosti. Úpravy stávajících procesů a API dle požadavků
+              zadavatele.
+              Práce v interních aplikacích Designer (správa tříd a verzí, deployment) a eUFO designer (UML framework pro
+              tvorbu procesních map).
+              <br />
+            </p>
+            <div className={`${styles.dateWrapper}`}>
+              <div className={`${styles.date}`}>
+                <b>[ 01.09.2022 – 31.12.2022 ]</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.card_xp} ${styles.flexItem}`}>
+          <h1 className={`${styles.xpH1}`}>Integration Team</h1>
+          <div className={styles.cardContent}>
+            <p className={`${styles.paragraph_xp}`}>
+              V integračním týmu řešení incidentů na základě vyhodnocování Kibana logů + správa číselníků
+              <br />
+            </p>
+            <div className={`${styles.dateWrapper}`}>
+              <div className={`${styles.date}`}>
+                <b>[ 01.01.2023 – 30.04.2023 ]</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div className={`${styles.heading2} mt-14`}>
+        <h1>Projects</h1>
+      </div>
+
+      <div className={`flex flex-col sm:flex-row flex-wrap w-[90%] sm:w-full mb-8 justify-center`}>
+        <div className={`${styles.card_xp} ${styles.flexItem}`}>
+          <h1 className={`${styles.proH1}`}>FBC Smíchov</h1>
+          <div className={styles.cardContent}>
+            
+                <img src={fbcsmichov} alt="" className="w-72 mx-auto" />
+
+            <div className={`${styles.dateWrapper}`}>
+              <div className={`${styles.date}`}>
+                <b>[ link ]</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.card_xp} ${styles.flexItem}`}>
+          <h1 className={`${styles.proH1}`}>Leguan Mladá Boleslav</h1>
+          <div className={styles.cardContent}>
+            
+              <img src={leguan} alt="" className="w-100 mx-auto" />
+
+            <div className={`${styles.dateWrapper}`}>
+              <div className={`${styles.date}`}>
+                <b>[ link ]</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.card_xp} ${styles.flexItem}`}>
+          <h1 className={`${styles.proH1}`}>Java text adventure game</h1>
+          <div className={styles.cardContent}>
+              <img src={javahra} alt="" className="w-72 mx-auto" />
+            <div className={`${styles.dateWrapper}`}>
+              <div className={`${styles.date}`}>
+                <b>[ link ]</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+----------------  CAROUSEL ITEMS    ---------------------------
+
+ <div className="flex items-center justify-center">
+    
+    <div className="w-[94%]">
+      <Carousel
+            breakPoints={breakPoints}
+            isRTL={false} 
+            ref={carouselRef}
+            onNextStart={onNextStart}
+            onPrevStart={onPrevStart}
+          >
+      <div className={`${styles.carousel_xp} ${styles.flexItem}`}>
+          <h1 className={`${styles.xpH1}`}>SW Tester</h1>
+          <div className={styles.cardContent}>
+            <p className={`${styles.paragraph_xp}`}>
+              Testování interních aplikací společnosti, <br />
+              testy API. Komunikace s vývojáři a správa testovacích scénářů.
+              Práce s json, xml, SQL, SalesForce, Jira, Postman + interní aplikace
+              <br />
+            </p>
+            <div className={`${styles.dateWrapper}`}>
+              <div className={`${styles.date}`}>
+                <b>[ 01.10.2021 – 0.1.09.2022 ]</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.carousel_xp} ${styles.flexItem}`}>
+          <h1 className={`${styles.xpH1}`}>SW analytik a developer</h1>
+          <div className={styles.cardContent}>
+            <p className={`${styles.paragraph_xp}`}>
+              Analýza a vývoj procesů v rámci interní aplikace společnosti. Úpravy stávajících procesů a API dle požadavků
+              zadavatele.
+              Práce v interních aplikacích Designer (správa tříd a verzí, deployment) a eUFO designer (UML framework pro
+              tvorbu procesních map).
+              <br />
+            </p>
+            <div className={`${styles.dateWrapper}`}>
+              <div className={`${styles.date}`}>
+                <b>[ 01.09.2022 – 31.12.2022 ]</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.carousel_xp} ${styles.flexItem}`}>
+          <h1 className={`${styles.xpH1}`}>Integration Team</h1>
+          <div className={styles.cardContent}>
+            <p className={`${styles.paragraph_xp}`}>
+              V integračním týmu řešení incidentů na základě vyhodnocování Kibana logů + správa číselníků
+              <br />
+            </p>
+            <div className={`${styles.dateWrapper}`}>
+              <div className={`${styles.date}`}>
+                <b>[ 01.01.2023 – 30.04.2023 ]</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.carousel_xp} ${styles.flexItem}`}>
+          <h1 className={`${styles.xpH1}`}>Ano Team</h1>
+          <div className={styles.cardContent}>
+            <p className={`${styles.paragraph_xp}`}>
+              V integračním asadarsfcsdv řešení incidentů na základě vyhodnocování Kibana logů + správa číselníků
+              <br />
+            </p>
+            <div className={`${styles.dateWrapper}`}>
+              <div className={`${styles.date}`}>
+                <b>[ 01.01.2023 – 000000 ]</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </Carousel>
+    </div>
+    </div>
+
+    ------ FULL CAROUSEL ----------------
+    import React from 'react';
+import styles from '../style';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+const breakPoints = [
+  { width: 1, slidesToShow: 1 },
+  { width: 550, slidesToShow: 2 },
+  { width: 768, slidesToShow: 3 },
+  { width: 1200, slidesToShow: 3 },
+];
+
+function Work() {
+  const carouselItems = [
+      <div key={`item-${1}`} className={`${styles.carousel_xp} ${styles.flexItem}`}>
+        <h1 className={`${styles.xpH1}`}>SW Tester</h1>
+        <div className={styles.cardContent}>
+          <p className={`${styles.paragraph_xp}`}>
+            Testování interních aplikací společnosti, <br />
+            testy API. Komunikace s vývojáři a správa testovacích scénářů.
+            Práce s json, xml, SQL, SalesForce, Jira, Postman + interní aplikace
+            <br />
+          </p>
+          <div className={`${styles.dateWrapper}`}>
+            <div className={`${styles.date}`}>
+              <b>[ 01.10.2021 – 0.1.09.2022 ]</b>
+            </div>
+          </div>
+        </div>
+      </div>,
+      <div key={`item-${2}`} className={`${styles.carousel_xp} ${styles.flexItem}`}>
+      <h1 className={`${styles.xpH1}`}>SW analytik a developer</h1>
+      <div className={styles.cardContent}>
+        <p className={`${styles.paragraph_xp}`}>
+              Analýza a vývoj procesů v rámci interní aplikace společnosti. Úpravy stávajících procesů a API dle požadavků
+              zadavatele.
+              Práce v interních aplikacích Designer (správa tříd a verzí, deployment) a eUFO designer (UML framework pro
+              tvorbu procesních map).
+          <br />
+        </p>
+        <div className={`${styles.dateWrapper}`}>
+          <div className={`${styles.date}`}>
+            <b>[ 01.09.2022 – 31.12.2022 ]</b>
+          </div>
+        </div>
+      </div>
+    </div>,
+    <div key={`item-${3}`} className={`${styles.carousel_xp} ${styles.flexItem}`}>
+    <h1 className={`${styles.xpH1}`}>Integration Team</h1>
+    <div className={styles.cardContent}>
+      <p className={`${styles.paragraph_xp}`}>
+            V integračním týmu řešení incidentů na základě vyhodnocování Kibana logů + správa číselníků
+              <br />
+      </p>
+      <div className={`${styles.dateWrapper}`}>
+        <div className={`${styles.date}`}>
+          <b>[ 01.01.2023 – 30.04.2023 ]</b>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div key={`item-${4}`} className={`${styles.carousel_xp} ${styles.flexItem}`}>
+  <h1 className={`${styles.xpH1}`}>Ano Team</h1>
+  <div className={styles.cardContent}>
+    <p className={`${styles.paragraph_xp}`}>
+      Testování interních aplikací společnosti, <br />
+      testy SDF VSDVSVtesto vacích scénářů.
+      Práce s json, xml, SQL, SalesForce, Jira, Postman + interní aplikace
+      <br />
+    </p>
+    <div className={`${styles.dateWrapper}`}>
+      <div className={`${styles.date}`}>
+        <b>[ 01.10.2021 – 00000000 ]</b>
+      </div>
+    </div>
+  </div>
+</div>
+      // Add more carousel items as needed
+    
+  ];
+
+  const sliderSettings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3, // Show only three slides at a time
+    slidesToScroll: 1,
+    arrows: carouselItems.length > 1,
+  };
+
+  return (
+    <>
+      <div className={`${styles.heading1} mt-6 text-center`}>
+        <h1>Work experience</h1>
+      </div>
+
+      <div className={`${styles.heading2} mt-8 text-center`}>
+        <h1>Moneta Money Bank</h1>
+      </div>
+
+      {/* Center the carousel */}
+      <div className="flex items-center justify-center">
+        {/* Add padding and control width for the carousel */}
+        <div className="w-full px-4 sm:w-11/12 md:w-5/6">
+          <Slider {...sliderSettings}>
+            {carouselItems.map((item, index) => (
+              // Apply margin and width to carousel items
+              <div key={`item-${index}`} className="px-4">
+                {item}
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Work;
