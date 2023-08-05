@@ -1,3 +1,3 @@
-My personal prtfolio website
+My personal portfolio website
 Ma.Dev
 David Mašek
