@@ -168,7 +168,6 @@ function Work() {
   return (
     <>
     
-
       <div className={`${styles.heading1} mt-6 text-center`}>
         <h1>Work experience</h1>
       </div>
