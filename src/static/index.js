@@ -8,6 +8,8 @@ import linkedin from "./img/linkedin.png";
 import eng from "./img/eng.png";
 import ger from "./img/ger.png";
 import cze from "./img/cze.png";
+import git_pic from "./img/GitHub-logo.png";
+import linkedin_pic from "./img/linkedin-icon.png";
 
 export {
     ppl2,
@@ -20,4 +22,6 @@ export {
     eng,
     ger,
     cze,
+    git_pic,
+    linkedin_pic,
   };

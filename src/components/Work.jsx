@@ -99,7 +99,7 @@ function Work() {
           right: '-1.5rem',
           transform: 'translateY(-50%)',
           zIndex: '1',
-          backgroundColor: 'yellow',
+          backgroundColor: 'rgb(250 204 21)',
           color: 'black',
           borderRadius: '50%',
           padding: '9px',
@@ -124,7 +124,7 @@ function Work() {
           left: '-1.5rem',
           transform: 'translateY(-50%)',
           zIndex: '1',
-          backgroundColor: 'yellow',
+          backgroundColor: 'rgb(250 204 21)',
           color: 'black',
           borderRadius: '50%',
           padding: '9px',
@@ -167,6 +167,8 @@ function Work() {
 
   return (
     <>
+    
+
       <div className={`${styles.heading1} mt-6 text-center`}>
         <h1>Work experience</h1>
       </div>

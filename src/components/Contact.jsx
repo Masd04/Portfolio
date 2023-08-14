@@ -1,0 +1,34 @@
+import React, { forwardRef } from 'react';
+import styles from '../style';
+import { git_pic, linkedin_pic } from '../static';
+
+function Contact() {
+  return (
+   <>
+    
+      <div className={`${styles.heading1} mt-6`}>
+        <h1>Contact</h1>
+      </div>
+
+      <div className={`${styles.contH1} mt-6`}>
+        <h1>davidmasekk@gmail.com</h1>
+      </div>
+
+      <div className={`flex flex-col sm:flex-row flex-wrap w-full items-center justify-evenly`}>
+        <div className={`w-full xs:w-1/2 ss:w-1/2 sm:w-1/3 lg:w-1/3 flex flex-col justify-center p-2`}>
+          <div className="flex justify-center">
+            <img src={git_pic} alt="" className="w-64 cursor-pointer scale-100 hover:scale-110 bg-white" />
+          </div>
+        </div>
+
+        <div className={`w-full xs:w-1/2 ss:w-1/2 sm:w-1/3 lg:w-1/3 flex flex-col justify-center p-2`}>
+          <div className="flex justify-center">
+            <img src={linkedin_pic} alt="" className="w-40 cursor-pointer scale-100 hover:scale-110" />
+          </div>
+        </div>
+      </div>
+      </>
+  );
+}
+
+export default Contact;

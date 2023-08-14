@@ -13,6 +13,8 @@ const breakPoints = [
 function Projects() {
   return (
     <>
+    
+
     <div className={`${styles.heading2} mt-14`}>
         <h1>Projects</h1>
       </div>
