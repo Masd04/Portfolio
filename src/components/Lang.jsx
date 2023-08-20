@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import styles from '../style'
 import { eng, ger,cze } from '../static'
 import Slider from 'react-slick';
@@ -79,14 +79,17 @@ function Lang() {
           right: '-1.5rem',
           transform: 'translateY(-50%)',
           zIndex: '1',
-          backgroundColor: 'rgb(250 204 21)',
-          color: 'black',
+          backgroundColor: nextArrowClicked ? 'black' : 'rgb(250 204 21)',
+          color: nextArrowClicked ? 'rgb(250 204 21)' : 'black',
           borderRadius: '50%',
           padding: '9px',
           fontSize: '30px',
           cursor: 'pointer',
         }}
-        onClick={onClick}
+        onClick={() => {
+          setNextArrowClicked(true);
+          onClick();
+        }}
       >
         <FontAwesomeIcon icon={faChevronRight} />
       </div>
@@ -104,21 +107,30 @@ function Lang() {
           left: '-1.5rem',
           transform: 'translateY(-50%)',
           zIndex: '1',
-          backgroundColor: 'rgb(250 204 21)',
-          color: 'black',
+          backgroundColor: prevArrowClicked ? 'black' : 'rgb(250 204 21)',
+          color: prevArrowClicked ? 'rgb(250 204 21)' : 'black',
           borderRadius: '50%',
           padding: '9px',
           fontSize: '30px',
           cursor: 'pointer',
         }}
-        onClick={onClick}
+        onClick={() => {
+          setPrevArrowClicked(true);
+          onClick();
+        }}
       >
         <FontAwesomeIcon icon={faChevronLeft} />
       </div>
     );
   };
   
-  
+  const [nextArrowClicked, setNextArrowClicked] = useState(false);
+  const [prevArrowClicked, setPrevArrowClicked] = useState(false);
+
+  const handleSliderChange = () => {
+    setNextArrowClicked(false);
+    setPrevArrowClicked(false);
+  };
 
   const sliderSettings = {
     dots: false,
@@ -129,6 +141,7 @@ function Lang() {
     arrows: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    afterChange: handleSliderChange,
   };
 
   // Update the number of slides to show on window resize
