@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect  } from 'react';
 import styles from '../style';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -143,6 +143,16 @@ function Work() {
       </div>
     );
   };
+
+  const [slidesToShow, setSlidesToShow] = useState(getSlidesToShow());
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setSlidesToShow(getSlidesToShow());
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   
   const [nextArrowClicked, setNextArrowClicked] = useState(false);
   const [prevArrowClicked, setPrevArrowClicked] = useState(false);
@@ -156,7 +166,7 @@ function Work() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: getSlidesToShow(), // Show the appropriate number of slides based on screen width
+    slidesToShow: slidesToShow, // Use the state variable for slidesToShow
     slidesToScroll: 1,
     arrows: true,
     nextArrow: <NextArrow />,
@@ -164,19 +174,7 @@ function Work() {
     afterChange: handleSliderChange,
   };
 
-  // Update the number of slides to show on window resize
-  React.useEffect(() => {
-    const handleResize = () => {
-      sliderSettings.slidesToShow = getSlidesToShow();
-      // Re-render the component to apply the updated slidesToShow value
-      forceUpdate();
-    };
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 
-  // A custom hook to force re-render the component
-  const [, forceUpdate] = React.useReducer((x) => x + 1, 0);
 
   return (
     <>
