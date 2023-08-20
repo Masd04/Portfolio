@@ -1,30 +1,12 @@
 import React from 'react'
 import styles from '../style';
-import Carousel from "react-elastic-carousel";
 import { fbcsmichov, javahra, leguan } from '../static';
+import Carousel from './Carousel';
 
-const breakPoints = [
-    { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2 },
-    { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 3 },
-  ];
 
 function Projects() {
-  return (
-    <>
-    
-
-    <div className={`${styles.heading2} mt-14`}>
-        <h1>Projects</h1>
-      </div>
-
-      
-    <div className="flex items-center justify-center">
-    
-    <div className="w-[94%]">
-      <Carousel breakPoints={breakPoints}>
-      <div className={`${styles.carousel_pr} ${styles.flexItem}`}>
+  const carouselItems = [
+    <div key={`item-${1}`} className={`${styles.card_lang} ${styles.flexItem}`}>
           <h1 className={`${styles.proH1}`}>FBC Smíchov</h1>
           <div className={styles.cardContent}>
             
@@ -38,38 +20,52 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>
-        <div className={`${styles.carousel_pr} ${styles.flexItem}`}>
-          <h1 className={`${styles.proH1}`}>Leguan Mladá Boleslav</h1>
-          <div className={styles.cardContent}>
-            
-              <img src={leguan} alt="" className="w-100 mx-auto" />
+        </div>,
+    <div key={`item-${2}`} className={`${styles.card_lang} ${styles.flexItem}`}>
+    <h1 className={`${styles.proH1}`}>Leguan Mladá Boleslav</h1>
+    <div className={styles.cardContent}>
+      
+        <img src={leguan} alt="" className="w-80 mx-auto" />
 
-            <div className={`${styles.dateWrapper}`}>
-              <div className={`${styles.link_pr}`}>
-                <a href="https://leguanmb.cz/" target="_blank">
-                <b className="">[ see website ]</b>
-                </a>
-              </div>
-            </div>
-          </div>
+      <div className={`${styles.dateWrapper}`}>
+        <div className={`${styles.link_pr}`}>
+          <a href="https://leguanmb.cz/" target="_blank">
+          <b className="">[ see website ]</b>
+          </a>
         </div>
-        <div className={`${styles.carousel_pr} ${styles.flexItem}`}>
-          <h1 className={`${styles.proH1}`}>Java text adventure game</h1>
-          <div className={styles.cardContent}>
-              <img src={javahra} alt="" className="w-56 mx-auto" />
-            <div className={`${styles.dateWrapper}`}>
-              <div className={`${styles.link_pr}`}>
-                <a href="https://github.com/Masd04/SidliskovySen" target="_blank">
-                <b className="">[ see code ]</b>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </Carousel>
+      </div>
     </div>
+  </div>,
+    <div key={`item-${3}`} className={`${styles.card_lang} ${styles.flexItem}`}>
+    <h1 className={`${styles.proH1}`}>Java text adventure game</h1>
+    <div className={styles.cardContent}>
+        <img src={javahra} alt="" className="w-56 mx-auto" />
+      <div className={`${styles.dateWrapper}`}>
+        <div className={`${styles.link_pr}`}>
+          <a href="https://github.com/Masd04/SidliskovySen" target="_blank">
+          <b className="">[ see code ]</b>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  ];
+
+
+  return (
+    <>
+    
+
+    <div className={`${styles.heading2} mt-14`}>
+        <h1>Projects</h1>
+      </div>
+
+      
+    <div className="flex items-center justify-center">
+    
+    <div className="w-11/12 px-4 sm:w-11/12 md:w-5/6">
+        <Carousel carouselItems={carouselItems} />
+        </div>
     </div>
   </>
   )
