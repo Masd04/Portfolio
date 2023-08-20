@@ -19,9 +19,9 @@ function Sidebar() {
       
       <nav className="flex flex-col items-center h-full justify-center">
         
-        <ul className="flex flex-1 flex-col space-y-20 text-center ml-14 mt-36">
+        <ul className="flex flex-1 flex-col space-y-20 text-center ml-0 mt-36 w-8">
 
-          <li className={`${styles.rotate_container}`}>
+          <li className={`${styles.rotate_container} ml-1`}>
             <Link
               to="/"
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white"
@@ -30,7 +30,7 @@ function Sidebar() {
             </Link>
           </li>
 
-          <li className={`${styles.rotate_container}`}>
+          <li className={`${styles.rotate_container} ml-1`}>
             <Link
               to="/about"
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white"
@@ -39,7 +39,7 @@ function Sidebar() {
             </Link>
           </li>
 
-          <li className={`${styles.rotate_container}`}>
+          <li className={`${styles.rotate_container} ml-1`}>
             <Link
               to="/docs"
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white"
@@ -48,7 +48,7 @@ function Sidebar() {
             </Link>
           </li>
 
-          <li className={`${styles.rotate_container}`}>
+          <li className={`${styles.rotate_container} ml-1`}>
             <Link
               to="/docs"
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white"
