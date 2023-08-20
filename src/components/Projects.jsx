@@ -39,7 +39,7 @@ function Projects() {
     <div key={`item-${3}`} className={`${styles.card_lang} ${styles.flexItem}`}>
     <h1 className={`${styles.proH1}`}>Java text adventure game</h1>
     <div className={styles.cardContent}>
-        <img src={javahra} alt="" className="w-56 mx-auto" />
+        <img src={javahra} alt="" className="w-48 sm:w-52 mx-auto" />
       <div className={`${styles.dateWrapper}`}>
         <div className={`${styles.link_pr}`}>
           <a href="https://github.com/Masd04/SidliskovySen" target="_blank">
@@ -56,7 +56,7 @@ function Projects() {
     <>
     
 
-    <div className={`${styles.heading2} mt-14`}>
+    <div className={`${styles.heading1} mt-14`}>
         <h1>Projects</h1>
       </div>
 
