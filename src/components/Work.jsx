@@ -80,11 +80,11 @@ function Work() {
   return (
     <>
     
-      <div className={`${styles.heading1} mt-6 text-center`}>
+      <div className={`${styles.heading1} mt-10 sm:mt-6 ml-1 sm:ml-0`}>
         <h1>Work experience</h1>
       </div>
 
-      <div className={`${styles.heading2} mt-8 text-center`}>
+      <div className={`${styles.heading2} mt-4 sm:mt-8 ml-2 sm:ml-0`}>
         <h1>Moneta Money Bank</h1>
       </div>
 

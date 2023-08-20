@@ -6,7 +6,7 @@ function Contact() {
   return (
    <>
     
-      <div className={`${styles.heading1} mt-6`}>
+      <div className={`${styles.heading1} mt-14 ml-1 sm:ml-0`}>
         <h1>Contact</h1>
       </div>
 

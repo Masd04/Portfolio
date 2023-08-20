@@ -10,10 +10,10 @@ function Sidebar() {
       
       <div className="flex flex-col items-center space-y-2 mt-2">
       <a href="https://github.com/Masd04" target="_blank">
-      <img src={git} alt="" className="w-[80%] scale-100 hover:scale-110 cursor-pointer" />
+      <img src={git} alt="" className="w-[80%] scale-100 hover:scale-110 cursor-pointer ml-[0.2rem] sm:ml-[0.17rem]" />
       </a>
       <a href="https://www.linkedin.com/in/david-ma%C5%A1ek-aa2463258/" target="_blank">
-      <img src={linkedin} alt="" className="w-[80%] scale-100 hover:scale-110 cursor-pointer" />
+      <img src={linkedin} alt="" className="w-[80%] scale-100 hover:scale-110 cursor-pointer ml-[0.2rem] sm:ml-[0.17rem]" />
       </a>
       </div>
       

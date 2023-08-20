@@ -55,7 +55,7 @@ function Lang() {
     <>
     
     
-    <div className={`${styles.heading1} mt-6`}>
+    <div className={`${styles.heading1} mt-14 ml-1 sm:ml-0`}>
         <h1>Languages</h1>
       </div>
 
