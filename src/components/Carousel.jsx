@@ -32,12 +32,12 @@ const NextArrow = (props) => {
           transform: 'translateY(-50%)',
           zIndex: '1',
           backgroundColor: nextArrowClicked ? 'black' : 'rgb(250 204 21)',
-        color: nextArrowClicked ? 'rgb(250 204 21)' : 'black',
+          color: nextArrowClicked ? 'rgb(250 204 21)' : 'black',
           borderRadius: '50%',
           padding: '9px',
           fontSize: '30px',
           cursor: 'pointer',
-        }}
+          }}
         onClick={() => {
           setNextArrowClicked(true);
           onClick();
@@ -60,11 +60,12 @@ const NextArrow = (props) => {
           transform: 'translateY(-50%)',
           zIndex: '1',
           backgroundColor: prevArrowClicked ? 'black' : 'rgb(250 204 21)',
-        color: prevArrowClicked ? 'rgb(250 204 21)' : 'black',
+          color: prevArrowClicked ? 'rgb(250 204 21)' : 'black',
           borderRadius: '50%',
           padding: '9px',
           fontSize: '30px',
           cursor: 'pointer',
+          
         }}
         onClick={() => {
           setPrevArrowClicked(true);
@@ -97,7 +98,7 @@ const NextArrow = (props) => {
   const sliderSettings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 450,
     slidesToShow: slidesToShow, // Use the state variable for slidesToShow
     slidesToScroll: 1,
     arrows: true,
