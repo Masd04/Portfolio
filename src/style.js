@@ -44,6 +44,8 @@ const styles = {
   customDotsContainer: 'flex items-center justify-center mt-4',
   customDot: 'mx-1 w-4 h-4 rounded-full bg-gray-300', // Customize the size and appearance of the dots
   activeDot: 'bg-yellow-400',
+
+  active: 'text-gray-100 border-b-2 border-yellow-400',
   
 };
   

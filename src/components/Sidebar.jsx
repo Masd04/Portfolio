@@ -4,6 +4,8 @@ import styles from '../style';
 import { logo, git, linkedin } from "../static";
 
 function Sidebar() {
+
+  
   
   return (
     <div className="fixed top-0 left-0 h-screen w-8 bg-primary shadow-md border-r-2 border-gray-300 z-10">
@@ -23,7 +25,7 @@ function Sidebar() {
 
           <li className={`${styles.rotate_container} ml-1`}>
             <Link
-              to="work" activeClass="active" spy={true} smooth={true} offset={-112} duration={500}
+              to="work" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-112} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
               Work
@@ -32,7 +34,7 @@ function Sidebar() {
 
           <li className={`${styles.rotate_container} ml-1`}>
             <Link
-              to="projects" activeClass="active" spy={true} smooth={true} offset={-145} duration={500}
+              to="projects" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-145} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
               Projects
@@ -41,7 +43,7 @@ function Sidebar() {
 
           <li className={`${styles.rotate_container} ml-1`}>
             <Link
-              to="lang" activeClass="active" spy={true} smooth={true} offset={-145} duration={500}
+              to="lang" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-145} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
               Languages
@@ -50,7 +52,7 @@ function Sidebar() {
 
           <li className={`${styles.rotate_container} ml-1`}>
             <Link
-              to="contact" activeClass="active" spy={true} smooth={true} offset={-145} duration={500}
+              to="contact" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-145} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
               Contact
