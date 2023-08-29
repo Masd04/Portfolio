@@ -7,7 +7,7 @@ import { logo } from '../static';
 
 function Navbar() {
   return (
-    <div className="fixed left-0 right-0 top-0 h-20 shadow-md border-b-2 border-gray-100 bg-primary z-10">
+    <div className="fixed left-0 right-0 top-0 h-20 shadow-md border-b-2 border-gray-100 bg-primary z-10 select-none">
 
       <nav className="flex items-center ml-6 sm:ml-10 h-full justify-center sm:justify-between">
         

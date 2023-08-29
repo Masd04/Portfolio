@@ -8,7 +8,7 @@ function Sidebar() {
   
   
   return (
-    <div className="fixed top-0 left-0 h-screen w-8 bg-primary shadow-md border-r-2 border-gray-300 z-10">
+    <div className="fixed top-0 left-0 h-screen w-8 bg-primary shadow-md border-r-2 border-gray-300 z-10 select-none">
       
       <div className="flex flex-col items-center space-y-2 mt-2 border-b-2 pb-[0.87rem]">
       <a href="https://github.com/Masd04" target="_blank">

@@ -8,8 +8,8 @@ import linkedin from "./img/linkedin.png";
 import eng from "./img/eng.png";
 import ger from "./img/ger.png";
 import cze from "./img/cze.png";
-import git_pic from "./img/GitHub-logo.png";
-import linkedin_pic from "./img/linkedin-icon.png";
+import git_pic from "./img/GitHub_Logo_Yellow.png";
+import linkedin_pic from "./img/Li-In-Bug.png";
 import bgg from "./img/6106991.jpg"
 
 export {

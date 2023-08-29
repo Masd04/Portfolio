@@ -9,6 +9,11 @@ module.exports = {
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         },
+
+      fontFamily: {
+        
+        nunito: ['Nunito', 'sans-serif'],
+       },
       
     keyframes: {
         'text': {

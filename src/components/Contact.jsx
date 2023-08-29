@@ -19,7 +19,7 @@ function Contact() {
         <div className={`w-full xs:w-1/2 ss:w-1/2 sm:w-1/3 lg:w-1/3 flex flex-col justify-center p-2`}>
           <div className="flex justify-center">
           <a href="https://github.com/Masd04" target="_blank">
-            <img src={git_pic} alt="" className="w-64 cursor-pointer scale-100 hover:scale-110 bg-white" />
+            <img src={git_pic} alt="" className="w-64 cursor-pointer scale-100 hover:scale-110" />
           </a>
           </div>
         </div>
