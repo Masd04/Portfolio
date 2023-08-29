@@ -10,6 +10,7 @@ import ger from "./img/ger.png";
 import cze from "./img/cze.png";
 import git_pic from "./img/GitHub-logo.png";
 import linkedin_pic from "./img/linkedin-icon.png";
+import bgg from "./img/6106991.jpg"
 
 export {
     ppl2,
@@ -24,4 +25,5 @@ export {
     cze,
     git_pic,
     linkedin_pic,
+    bgg,
   };

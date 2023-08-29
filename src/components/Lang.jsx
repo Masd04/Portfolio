@@ -53,9 +53,9 @@ function Lang() {
 
   return (
     <>
+    <div id='lang'>
     
-    
-    <div className={`${styles.heading1} mt-14 ml-1 sm:ml-0`}>
+    <div className={`${styles.heading1} mt-28 ml-1 sm:ml-0`}>
         <h1>Languages</h1>
       </div>
 
@@ -67,6 +67,7 @@ function Lang() {
         </div>
       </div>
     
+    </div>
     </>
   )
 }

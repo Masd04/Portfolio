@@ -79,7 +79,8 @@ function Work() {
 
   return (
     <>
-    
+      <div id='work'>
+
       <div className={`${styles.heading1} mt-10 sm:mt-6 ml-1 sm:ml-0`}>
         <h1>Work experience</h1>
       </div>
@@ -94,6 +95,8 @@ function Work() {
         <div className="w-11/12 px-4 sm:w-11/12 md:w-5/6">
         <Carousel carouselItems={carouselItems} />
         </div>
+      </div>
+
       </div>
     </>
   );

@@ -1,14 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import styles from '../style';
 import { logo, git, linkedin } from "../static";
 
 function Sidebar() {
   
   return (
-    <div className="fixed top-0 left-0 h-screen w-8 shadow-md border-r-2 border-gray-300 z-10">
+    <div className="fixed top-0 left-0 h-screen w-8 bg-primary shadow-md border-r-2 border-gray-300 z-10">
       
-      <div className="flex flex-col items-center space-y-2 mt-2">
+      <div className="flex flex-col items-center space-y-2 mt-2 border-b-2 pb-[0.87rem]">
       <a href="https://github.com/Masd04" target="_blank">
       <img src={git} alt="" className="w-[80%] scale-100 hover:scale-110 cursor-pointer ml-[0.2rem] sm:ml-[0.17rem]" />
       </a>
@@ -23,8 +23,8 @@ function Sidebar() {
 
           <li className={`${styles.rotate_container} ml-1`}>
             <Link
-              to="/"
-              className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white"
+              to="work" activeClass="active" spy={true} smooth={true} offset={-112} duration={500}
+              className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
               Work
             </Link>
@@ -32,8 +32,8 @@ function Sidebar() {
 
           <li className={`${styles.rotate_container} ml-1`}>
             <Link
-              to="/about"
-              className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white"
+              to="projects" activeClass="active" spy={true} smooth={true} offset={-145} duration={500}
+              className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
               Projects
             </Link>
@@ -41,8 +41,8 @@ function Sidebar() {
 
           <li className={`${styles.rotate_container} ml-1`}>
             <Link
-              to="/docs"
-              className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white"
+              to="lang" activeClass="active" spy={true} smooth={true} offset={-145} duration={500}
+              className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
               Languages
             </Link>
@@ -50,8 +50,8 @@ function Sidebar() {
 
           <li className={`${styles.rotate_container} ml-1`}>
             <Link
-              to="/docs"
-              className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white"
+              to="contact" activeClass="active" spy={true} smooth={true} offset={-145} duration={500}
+              className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
               Contact
             </Link>

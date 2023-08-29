@@ -6,9 +6,11 @@ import styles from './style';
 import Home from './pages/Home';
 import About from './pages/About';
 
+
 function App() {
   return (
     <div className="bg-primary">
+
     <Router basename={"/Portfolio"}>
     
     
@@ -26,7 +28,7 @@ function App() {
     </div>
 
     
-
+    
     </Router>
 
     </div>

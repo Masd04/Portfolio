@@ -55,6 +55,7 @@ function Projects() {
   return (
     <>
     
+    <div id='projects'>
 
     <div className={`${styles.heading1} mt-14 ml-1 sm:ml-0`}>
         <h1>Projects</h1>
@@ -66,6 +67,8 @@ function Projects() {
     <div className="w-11/12 px-4 sm:w-11/12 md:w-5/6">
         <Carousel carouselItems={carouselItems} />
         </div>
+    </div>
+
     </div>
   </>
   )

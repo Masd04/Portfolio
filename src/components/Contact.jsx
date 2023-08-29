@@ -5,8 +5,9 @@ import { git_pic, linkedin_pic } from '../static';
 function Contact() {
   return (
    <>
-    
-      <div className={`${styles.heading1} mt-14 ml-1 sm:ml-0`}>
+    <div id='contact' className='mb-60'>
+
+      <div className={`${styles.heading1} ml-1 mt-28 sm:ml-0`}>
         <h1>Contact</h1>
       </div>
 
@@ -30,6 +31,8 @@ function Contact() {
           </a>
           </div>
         </div>
+      </div>
+
       </div>
       </>
   );
