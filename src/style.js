@@ -31,6 +31,14 @@ const styles = {
   flexItem: 'flex flex-1',
   flexItem1: 'flex',
 
+  //CV BUTTONS
+  buttonContentContainer: 'flex flex-row',
+  cvButtons: 'bg-yellow-400 rounded-3xl w-auto h-12 white font-bold font-nunito mx-5 px-4 scale-100 hover:scale-105',
+  
+  cvButtonsMob: 'bg-yellow-400 rounded-3xl w-auto h-8 white font-bold font-nunito mx-5 my-[0.125rem] px-4 scale-100 hover:scale-105',
+
+
+  
   contH1: "text-2xl my-4 text-white text-center font-medium mx-5",
 
   cardContent: 'flex flex-col justify-between h-full',
