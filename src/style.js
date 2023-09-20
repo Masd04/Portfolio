@@ -21,13 +21,15 @@ const styles = {
   marginY: "sm:my-16 my-6",
 
 
-  xpH1: "text-2xl my-6 text-white text-left font-medium mx-5",
+  xpH1: "text-lg sm:text-2xl my-6 text-yellow-400 text-left font-medium mx-5",
   proH1: "text-2xl my-4 text-white text-center font-medium mx-5",
   card_xp: "w-[95%] xs:w-1/2 ss:w-1/2 sm:w-[28%] lg:w-[28%] flex flex-col p-6 border-2 border-white mx-6 my-3 rounded-2xl",
   card_lang: "w-[95%] xs:w-[95%] ss:w-[95%] sm:w-[95%] lg:w-[100%] flex flex-col pb-2 border-2 border-white mx-auto my-3 rounded-2xl h-[21em]",
   carousel_xp: "w-[95%] xs:w-[95%] ss:w-[95%] sm:w-[95%] lg:w-[100%] flex flex-col p-0 border-2 border-white mx-auto my-3 rounded-2xl h-[24em]",
   carousel_pr: "w-[95%] xs:w-1/2 ss:w-1/2 sm:w-[28%] lg:w-[28%] flex flex-col p-6 border-2 border-white mx-6 my-3 rounded-2xl h-[24em]",
-  paragraph_xp: "font-poppins font-normal text-[18px] leading-[30.8px] text-white text-left font-medium text-base mx-5",
+  paragraph_xp: "font-poppins font-normal text-[18px] leading-[25.8px] sm:leading-[30.8px] text-white text-left font-medium text-base mx-5",
+  paragraph_xpDev: "font-poppins font-normal leading-[20.8px] sm:leading-[30.8px] text-white text-left font-medium text-[18px] text-sm sm:text-base mx-5",
+
   flexItem: 'flex flex-1',
   flexItem1: 'flex',
 

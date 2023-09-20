@@ -27,7 +27,7 @@ function Work() {
     <div key={`item-${2}`} className={`${styles.carousel_xp} ${styles.flexItem}`}>
       <h1 className={`${styles.xpH1}`}>SW analytik a developer</h1>
       <div className={styles.cardContent}>
-        <p className={`${styles.paragraph_xp}`}>
+        <p className={`${styles.paragraph_xpDev}`}>
           Analýza a vývoj procesů v rámci interní aplikace společnosti. Úpravy stávajících procesů a API dle požadavků
           zadavatele.
           Práce v interních aplikacích Designer (správa tříd a verzí, deployment) a eUFO designer (UML framework pro
