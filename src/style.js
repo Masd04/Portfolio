@@ -22,7 +22,7 @@ const styles = {
 
 
   xpH1: "text-lg sm:text-2xl my-6 text-yellow-400 text-left font-medium mx-5",
-  proH1: "text-2xl my-4 text-white text-center font-medium mx-5",
+  proH1: "text-xl sm:text-2xl my-4 text-yellow-400 text-center font-medium mx-5",
   card_xp: "w-[95%] xs:w-1/2 ss:w-1/2 sm:w-[28%] lg:w-[28%] flex flex-col p-6 border-2 border-white mx-6 my-3 rounded-2xl",
   card_lang: "w-[95%] xs:w-[95%] ss:w-[95%] sm:w-[95%] lg:w-[100%] flex flex-col pb-2 border-2 border-white mx-auto my-3 rounded-2xl h-[21em]",
   carousel_xp: "w-[95%] xs:w-[95%] ss:w-[95%] sm:w-[95%] lg:w-[100%] flex flex-col p-0 border-2 border-white mx-auto my-3 rounded-2xl h-[24em]",
@@ -39,7 +39,7 @@ const styles = {
   
   cvButtonsMob: 'bg-yellow-400 rounded-3xl w-auto h-8 white font-bold font-nunito mx-5 my-[0.125rem] px-4 scale-100 hover:scale-105',
 
-
+  grText: 'font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-red-600 to-blue-400',
   
   contH1: "text-2xl my-4 text-white text-center font-medium mx-5",
 

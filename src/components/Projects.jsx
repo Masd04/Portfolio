@@ -25,7 +25,7 @@ function Projects() {
     <h1 className={`${styles.proH1}`}>Leguan Mladá Boleslav</h1>
     <div className={styles.cardContent}>
       
-        <img src={leguan} alt="" className="w-80 mx-auto" />
+        <img src={leguan} alt="" className="w-80 mx-auto my-auto" />
 
       <div className={`${styles.dateWrapper}`}>
         <div className={`${styles.link_pr}`}>
@@ -37,7 +37,7 @@ function Projects() {
     </div>
   </div>,
     <div key={`item-${3}`} className={`${styles.card_lang} ${styles.flexItem}`}>
-    <h1 className={`${styles.proH1}`}>Java text adventure game</h1>
+    <h1 className={`${styles.proH1}`}>Java: text adventure game</h1>
     <div className={styles.cardContent}>
         <img src={javahra} alt="" className="w-48 sm:w-52 mx-auto" />
       <div className={`${styles.dateWrapper}`}>
