@@ -6,7 +6,7 @@ import Carousel from './Carousel';
 function Lang() {
   const carouselItems = [
     <div key={`item-${1}`} className={`${styles.card_lang} ${styles.flexItem}`}>
-    <h1 className={`${styles.proH1}`}>English</h1>
+    <h1 className={`${styles.enText}`}>English</h1>
     <div className={styles.cardContent}>
       
       <img src={eng} alt="" className="w-52 mx-auto" />
@@ -20,7 +20,7 @@ function Lang() {
     </div>
   </div>,
     <div key={`item-${2}`} className={`${styles.card_lang} ${styles.flexItem}`}>
-    <h1 className={`${styles.proH1}`}>German</h1>
+    <h1 className={`${styles.gerText}`}>German</h1>
   <div className={styles.cardContent}>
     
       <img src={ger} alt="" className="w-52 mx-auto" />
@@ -34,7 +34,7 @@ function Lang() {
   </div>
   </div>,
     <div key={`item-${3}`} className={`${styles.card_lang} ${styles.flexItem}`}>
-    <h1 className={`${styles.proH1}`}>Czech</h1>
+    <h1 className={`${styles.czText}`}>Czech</h1>
   <div className={styles.cardContent}>
     
       <img src={cze} alt="" className="w-52 mx-auto" />

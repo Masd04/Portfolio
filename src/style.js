@@ -39,8 +39,12 @@ const styles = {
   
   cvButtonsMob: 'bg-yellow-400 rounded-3xl w-auto h-8 white font-bold font-nunito mx-5 my-[0.125rem] px-4 scale-100 hover:scale-105',
 
-  grText: 'font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-red-600 to-blue-400',
-  
+  //Lang Text
+  enText: 'font-bold text-xl sm:text-2xl my-4 text-yellow-400 text-center font-medium mx-auto text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-400',
+  gerText: 'font-bold text-xl sm:text-2xl my-4 text-yellow-400 text-center font-medium mx-auto text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-yellow-400',
+  czText: 'font-bold text-xl sm:text-2xl my-4 text-yellow-400 text-center font-medium mx-auto text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-white',
+
+
   contH1: "text-2xl my-4 text-white text-center font-medium mx-5",
 
   cardContent: 'flex flex-col justify-between h-full',
