@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import { logo } from '../static';
+import { dwnld, see, logo } from '../static';
 
 
 
@@ -12,14 +12,22 @@ function Navbar() {
       <nav className="flex items-center ml-6 sm:ml-10 h-full justify-center sm:justify-between">
         
         <img src={logo} alt="Ma.Dev logo" className="w-[75%] sm:w-[18%]"/>
-        
 
-        <div>
-          <ul className="hidden sm:flex items-center sm:mr-20 space-x-10 text-sm">
-            <li><Link to="/" className="text-white hover:text-yellow-400">Home</Link></li>
-            <li><Link to="/about" className="text-white hover:text-yellow-400">About Us</Link></li>
-            <li><Link to="/docs" className="text-white hover:text-yellow-400">Docs</Link></li>
-          </ul>
+        <div className=" ">
+          <div className=" ">
+            <button className="bg-yellow-400 rounded-3xl w-auto h-12 white font-bold font-nunito mx-5 px-4 scale-100 hover:scale-105">
+              <div className="flex flex-row">
+              <img src={see} alt="" className="w-6 h-auto mr-2"/>
+              <p>VIEW CV</p>
+              </div>
+            </button>
+            <button className="bg-yellow-400 rounded-3xl w-auto h-12 white font-bold font-nunito mx-5 px-4 scale-100 hover:scale-105">
+              <div className="flex flex-row">
+              <img src={dwnld} alt="" className="w-5 h-6 mr-2"/>
+              <p>DOWNLOAD CV</p>
+              </div>
+            </button>
+          </div>
         </div>
         
       </nav>
