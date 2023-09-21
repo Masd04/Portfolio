@@ -13,6 +13,7 @@ import linkedin_pic from "./img/Li-In-Bug.png";
 import bgg from "./img/6106991.jpg"
 import see from "./img/see.png"
 import dwnld from "./img/downloads.png"
+import clickon from "./img/clickon.svg"
 
 export {
     ppl2,
@@ -30,4 +31,5 @@ export {
     bgg,
     see,
     dwnld,
+    clickon,
   };

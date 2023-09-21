@@ -23,6 +23,7 @@ const styles = {
 
   xpH1: "text-lg sm:text-2xl my-6 text-yellow-400 text-left font-medium mx-5",
   proH1: "text-xl sm:text-2xl my-4 text-yellow-400 text-center font-medium mx-5",
+  contH1: "text-2xl sm:text-4xl my-4 font-nunito text-yellow-400 text-center font-bold mx-5",
   card_xp: "w-[95%] xs:w-1/2 ss:w-1/2 sm:w-[28%] lg:w-[28%] flex flex-col p-6 border-2 border-white mx-6 my-3 rounded-2xl",
   card_lang: "w-[95%] xs:w-[95%] ss:w-[95%] sm:w-[95%] lg:w-[100%] flex flex-col pb-2 border-2 border-white mx-auto my-3 rounded-2xl h-[21em]",
   carousel_xp: "w-[95%] xs:w-[95%] ss:w-[95%] sm:w-[95%] lg:w-[100%] flex flex-col p-0 border-2 border-white mx-auto my-3 rounded-2xl h-[24em]",
@@ -45,7 +46,7 @@ const styles = {
   czText: 'font-bold text-xl sm:text-2xl my-4 text-yellow-400 text-center font-medium mx-auto text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-white',
 
 
-  contH1: "text-2xl my-4 text-white text-center font-medium mx-5",
+  
 
   cardContent: 'flex flex-col justify-between h-full',
   dateWrapper: 'mt-auto',
