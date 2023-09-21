@@ -1,6 +1,6 @@
 import React from "react"
 import {Link} from 'react-router-dom'
-import { dwnld, see, logo } from '../static'
+import { dwnld, see, logo, cv } from '../static'
 import styles from '../style'
 
 
@@ -16,32 +16,40 @@ function Navbar() {
 
         <div className=" ">
           <div className="hidden sm:flex sm:flex-row">
+            <a href={cv} target="_blank">
             <button className={`${styles.cvButtons}`}>
               <div className={`${styles.buttonContentContainer}`}>
               <img src={see} alt="" className="w-6 h-auto mr-2" />
               <p>VIEW CV</p>
               </div>
             </button>
+            </a>
+            <a href={cv} download>
             <button className={`${styles.cvButtons}`}>
               <div className={`${styles.buttonContentContainer}`}>
               <img src={dwnld} alt="" className="w-5 h-6 mr-2" />
               <p>DOWNLOAD CV</p>
               </div>
             </button>
+            </a>
           </div>
           <div className="sm:hidden flex flex-col ml-[-0.125rem]">
+            <a href={cv} target="_blank">
             <button className={`${styles.cvButtonsMob}`}>
               <div className={`${styles.buttonContentContainer}`}>
               <img src={see} alt="" className="w-5 h-auto mr-1" />
               <p className="mr-4">CV</p>
               </div>
             </button>
+            </a>
+            <a href={cv} download>
             <button className={`${styles.cvButtonsMob}`}>
               <div className={`${styles.buttonContentContainer}`}>
               <img src={dwnld} alt="" className="w-4 h-5 mr-1" />
               <p className="mr-4">CV</p>
               </div>
             </button>
+            </a>
           </div>
         </div>
         

@@ -14,6 +14,7 @@ import bgg from "./img/6106991.jpg"
 import see from "./img/see.png"
 import dwnld from "./img/downloads.png"
 import clickon from "./img/clickon.svg"
+import cv from "./davidmasek-cv.pdf"
 
 export {
     ppl2,
@@ -32,4 +33,5 @@ export {
     see,
     dwnld,
     clickon,
+    cv,
   };
