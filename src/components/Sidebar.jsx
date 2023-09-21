@@ -28,7 +28,7 @@ function Sidebar() {
               to="work" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-112} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
-              Work
+              Práce
             </Link>
           </li>
 
@@ -37,7 +37,7 @@ function Sidebar() {
               to="projects" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-145} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
-              Projects
+              Projekty
             </Link>
           </li>
 
@@ -46,7 +46,7 @@ function Sidebar() {
               to="lang" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-145} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
-              Languages
+              Jazyky
             </Link>
           </li>
 
@@ -55,7 +55,7 @@ function Sidebar() {
               to="contact" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-145} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
-              Contact
+              Kontakt
             </Link>
           </li>
 

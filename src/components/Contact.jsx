@@ -8,7 +8,7 @@ function Contact() {
     <div id='contact' className='mb-60'>
 
       <div className={`${styles.heading1} ml-1 mt-28 sm:ml-0`}>
-        <h1>Contact</h1>
+        <h1>Kontakt</h1>
       </div>
 
       <div className={`${styles.contH1} mt-6 mb-10`}>

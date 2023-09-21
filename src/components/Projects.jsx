@@ -58,7 +58,7 @@ function Projects() {
     <div id='projects'>
 
     <div className={`${styles.heading1} mt-14 ml-1 sm:ml-0`}>
-        <h1>Projects</h1>
+        <h1>Projekty</h1>
       </div>
 
       
