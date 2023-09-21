@@ -2,20 +2,21 @@ import React from 'react';
 import styles from '../style';
 import Carousel from './Carousel';
 
+import { useTranslation } from 'react-i18next'
+
 
 
 
 
 function Work() {
+  const { t } = useTranslation();
+
   const carouselItems = [
     <div key={`item-${1}`} className={`${styles.carousel_xp} ${styles.flexItem}`}>
-      <h1 className={`${styles.xpH1}`}>SW Tester</h1>
+      <h1 className={`${styles.xpH1}`}>{t("swtesterh1")}</h1>
       <div className={styles.cardContent}>
         <p className={`${styles.paragraph_xp}`}>
-          Testování interních aplikací společnosti, <br />
-          testy API. Komunikace s vývojáři a správa testovacích scénářů.
-          Práce s json, xml, SQL, SalesForce, Jira, Postman + interní aplikace
-          <br />
+        {t("swtesterp1")}
         </p>
         <div className={`${styles.dateWrapper}`}>
           <div className={`${styles.date}`}>
@@ -25,14 +26,10 @@ function Work() {
       </div>
     </div>,
     <div key={`item-${2}`} className={`${styles.carousel_xp} ${styles.flexItem}`}>
-      <h1 className={`${styles.xpH1}`}>SW analytik a developer</h1>
+      <h1 className={`${styles.xpH1}`}>{t("swadH1")}</h1>
       <div className={styles.cardContent}>
         <p className={`${styles.paragraph_xpDev}`}>
-          Analýza a vývoj procesů v rámci interní aplikace společnosti. Úpravy stávajících procesů a API dle požadavků
-          zadavatele.
-          Práce v interních aplikacích Designer (správa tříd a verzí, deployment) a eUFO designer (UML framework pro
-          tvorbu procesních map).
-          <br />
+        {t("swadp1")}
         </p>
         <div className={`${styles.dateWrapper}`}>
           <div className={`${styles.date}`}>
@@ -42,11 +39,10 @@ function Work() {
       </div>
     </div>,
     <div key={`item-${3}`} className={`${styles.carousel_xp} ${styles.flexItem}`}>
-      <h1 className={`${styles.xpH1}`}>Integration Team</h1>
+      <h1 className={`${styles.xpH1}`}>{t("integH1")}</h1>
       <div className={styles.cardContent}>
         <p className={`${styles.paragraph_xp}`}>
-          V integračním týmu řešení incidentů na základě vyhodnocování Kibana logů + správa číselníků
-          <br />
+        {t("integp1")}
         </p>
         <div className={`${styles.dateWrapper}`}>
           <div className={`${styles.date}`}>
@@ -82,7 +78,7 @@ function Work() {
       <div id='work'>
 
       <div className={`${styles.heading1} mt-10 sm:mt-6 ml-1 sm:ml-0`}>
-        <h1>Pracovní zkušenosti</h1>
+        <h1>{t("workxp")}</h1>
       </div>
 
       <div className={`${styles.heading2} mt-4 sm:mt-8 ml-2 sm:ml-0`}>

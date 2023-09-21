@@ -2,13 +2,18 @@ import React, { forwardRef } from 'react';
 import styles from '../style';
 import { git_pic, linkedin_pic, clickon } from '../static';
 
+import { useTranslation } from 'react-i18next'
+
 function Contact() {
+
+  const { t } = useTranslation();
+
   return (
    <>
     <div id='contact' className='mb-60'>
 
       <div className={`${styles.heading1} ml-1 mt-28 sm:ml-0`}>
-        <h1>Kontakt</h1>
+        <h1>{t("contact")}</h1>
       </div>
 
       <div className={`${styles.contH1} mt-6 mb-10`}>

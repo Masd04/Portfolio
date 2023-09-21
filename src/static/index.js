@@ -14,6 +14,8 @@ import bgg from "./img/6106991.jpg"
 import see from "./img/see.png"
 import dwnld from "./img/downloads.png"
 import clickon from "./img/clickon.svg"
+import czflag from "./img/czflag.svg"
+import gbflag from "./img/gbflag.svg"
 import cv from "./davidmasek-cv.pdf"
 
 export {
@@ -33,5 +35,7 @@ export {
     see,
     dwnld,
     clickon,
+    czflag,
+    gbflag,
     cv,
   };

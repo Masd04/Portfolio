@@ -2,6 +2,7 @@ import React from "react"
 import {Link} from 'react-router-dom'
 import { dwnld, see, logo, cv } from '../static'
 import styles from '../style'
+import CustomDropDown from '../components/CustomDropDown';
 
 
 
@@ -12,7 +13,11 @@ function Navbar() {
 
       <nav className="flex items-center ml-6 sm:ml-10 h-full justify-left sm:justify-between">
         
-        <img src={logo} alt="Ma.Dev logo" className="w-[70%] sm:w-[18%] ml-2 sm:ml-0"/>
+        <img src={logo} alt="Ma.Dev logo" className="w-[28%] sm:w-[18%] ml-[0.7rem] sm:ml-0"/>
+
+        <div className="flex flex-grow justify-start ml-2">
+        <CustomDropDown />
+        </div>
 
         <div className=" ">
           <div className="hidden sm:flex sm:flex-row">
@@ -33,7 +38,7 @@ function Navbar() {
             </button>
             </a>
           </div>
-          <div className="sm:hidden flex flex-col ml-[-0.125rem]">
+          <div className="sm:hidden flex flex-col ml-[-0.3rem]">
             <a href={cv} target="_blank">
             <button className={`${styles.cvButtonsMob}`}>
               <div className={`${styles.buttonContentContainer}`}>

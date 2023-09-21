@@ -2,9 +2,12 @@ import React from 'react'
 import styles from '../style';
 import { fbcsmichov, javahra, leguan } from '../static';
 import Carousel from './Carousel';
+import { useTranslation } from 'react-i18next'
 
 
 function Projects() {
+  const { t } = useTranslation();
+
   const carouselItems = [
     <div key={`item-${1}`} className={`${styles.card_lang} ${styles.flexItem}`}>
           <h1 className={`${styles.proH1}`}>FBC Smíchov</h1>
@@ -15,7 +18,7 @@ function Projects() {
             <div className={`${styles.dateWrapper}`}>
               <div className={`${styles.link_pr}`}>
               <a href="https://fbcsmichov.cz/" target="_blank">
-                <b className="">[ see website ]</b>
+                <b className="">{t("seeweb")}</b>
                 </a>
               </div>
             </div>
@@ -30,7 +33,7 @@ function Projects() {
       <div className={`${styles.dateWrapper}`}>
         <div className={`${styles.link_pr}`}>
           <a href="https://leguanmb.cz/" target="_blank">
-          <b className="">[ see website ]</b>
+          <b className="">{t("seeweb")}</b>
           </a>
         </div>
       </div>
@@ -43,7 +46,7 @@ function Projects() {
       <div className={`${styles.dateWrapper}`}>
         <div className={`${styles.link_pr}`}>
           <a href="https://github.com/Masd04/SidliskovySen" target="_blank">
-          <b className="">[ see code ]</b>
+          <b className="">{t("seecode")}</b>
           </a>
         </div>
       </div>
@@ -58,7 +61,7 @@ function Projects() {
     <div id='projects'>
 
     <div className={`${styles.heading1} mt-14 ml-1 sm:ml-0`}>
-        <h1>Projekty</h1>
+        <h1>{t("projects")}</h1>
       </div>
 
       

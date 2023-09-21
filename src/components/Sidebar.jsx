@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-scroll";
 import styles from '../style';
 import { logo, git, linkedin } from "../static";
+import { useTranslation } from 'react-i18next'
 
 function Sidebar() {
-
+  const { t } = useTranslation();
   
   
   return (
@@ -28,7 +29,7 @@ function Sidebar() {
               to="work" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-112} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
-              Práce
+              {t("sbwork")}
             </Link>
           </li>
 
@@ -37,7 +38,7 @@ function Sidebar() {
               to="projects" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-145} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
-              Projekty
+              {t("projects")}
             </Link>
           </li>
 
@@ -46,7 +47,7 @@ function Sidebar() {
               to="lang" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-145} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
-              Jazyky
+              {t("lang")}
             </Link>
           </li>
 
@@ -55,7 +56,7 @@ function Sidebar() {
               to="contact" activeClass={`${styles.active}`} spy={true} smooth={true} offset={-145} duration={500}
               className="text-gray-300 hover:border-b-2 hover:border-yellow-400 transform -rotate-90 origin-center hover:text-white cursor-pointer"
             >
-              Kontakt
+              {t("contact")}
             </Link>
           </li>
 
