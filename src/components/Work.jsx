@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from '../style';
 import Carousel from './Carousel';
-
 import { useTranslation } from 'react-i18next'
 
 
@@ -77,11 +76,11 @@ function Work() {
     <>
       <div id='work'>
 
-      <div className={`${styles.heading1} mt-10 sm:mt-6 ml-1 sm:ml-0`}>
+      <div className={`${styles.heading1} mt-10 sm:mt-6 mx-auto`}>
         <h1>{t("workxp")}</h1>
       </div>
 
-      <div className={`${styles.heading2} mt-4 sm:mt-8 ml-2 sm:ml-0`}>
+      <div className={`${styles.heading2} mt-4 sm:mt-8 mx-auto`}>
         <h1>Moneta Money Bank</h1>
       </div>
 

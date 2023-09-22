@@ -12,7 +12,7 @@ const CustomDropdown = () => {
 }
 
   return (
-    <div className="flex flex-row justify-end">
+    <div className="flex flex-row justify-end items-center">
 
     <div className="">
       <div className="w-10 h-10 bg-yellow-400 border border-gray-400 rounded-full flex items-center justify-center mt-0 mr-1 sm:mr-2">
@@ -24,7 +24,7 @@ const CustomDropdown = () => {
         )}
       </div>
     </div>
-    <div className="">
+    <div className="flex justify-center">
       <select
         value={selectedLanguage}
         onChange={chooseLanguage}
