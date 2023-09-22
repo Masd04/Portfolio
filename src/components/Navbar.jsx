@@ -12,14 +12,10 @@ function Navbar() {
     <div className="fixed left-0 right-0 top-0 h-20 shadow-md border-b-2 border-gray-100 bg-primary z-10 select-none">
 
       <nav className="flex items-center ml-6 sm:ml-10 h-full justify-left sm:justify-between">
-        
-        <img src={logo} alt="Ma.Dev logo" className="w-[28%] sm:w-[18%] ml-[0.7rem] sm:ml-0"/>
 
-        <div className="flex flex-grow justify-start ml-2">
-        <CustomDropDown />
-        </div>
+      <div className="flex flex-grow justify-evenly items-center">
 
-        <div className=" ">
+      <div className=" ">
           <div className="hidden sm:flex sm:flex-row">
             <a href={cv} target="_blank">
             <button className={`${styles.cvButtons}`}>
@@ -58,6 +54,15 @@ function Navbar() {
           </div>
         </div>
         
+        <div className="flex justify-end sm:justify-center ml-[-1.15rem] sm:ml-[5.85rem]">
+        <img src={logo} alt="Ma.Dev logo" className="w-[100%] sm:w-[58%] ml-[1rem] sm:mx-auto" />
+        </div>
+
+        <div className="flex flex-grow justify-end mr-2">
+        <CustomDropDown />
+        </div>     
+      
+      </div>
       </nav>
       
     </div>
