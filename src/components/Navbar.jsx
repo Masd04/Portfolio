@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import { dwnld, see, logo, cv } from '../static'
 import styles from '../style'
 import CustomDropDown from '../components/CustomDropDown';
+import CustomDropDown1 from '../components/CustomDropDown1';
 
 
 
@@ -58,8 +59,13 @@ function Navbar() {
         <img src={logo} alt="Ma.Dev logo" className="w-[100%] sm:w-[58%] ml-[1rem] sm:mx-auto" />
         </div>
 
-        <div className="flex flex-grow justify-end mr-2">
+        <div className="flex flex-grow justify-end mx-2">
+        <div className="hidden sm:flex">
         <CustomDropDown />
+        </div>
+        <div className="flex sm:hidden">
+        <CustomDropDown1 />
+        </div>
         </div>     
       
       </div>
