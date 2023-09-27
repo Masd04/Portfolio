@@ -36,9 +36,9 @@ const styles = {
 
   //CV BUTTONS
   buttonContentContainer: 'flex flex-row',
-  cvButtons: 'bg-yellow-400 rounded-3xl w-auto h-12 white font-bold font-nunito mx-5 px-4 scale-100 hover:scale-105',
+  cvButtons: 'bg-yellow-400 rounded-3xl w-auto h-12 font-bold font-nunito mx-5 px-4 scale-100 hover:scale-105',
   
-  cvButtonsMob: 'bg-yellow-400 rounded-3xl w-auto h-8 white font-bold font-nunito mx-5 my-[0.125rem] px-4 scale-100 hover:scale-105',
+  cvButtonsMob: 'bg-yellow-400 rounded-3xl w-auto h-8 font-bold font-nunito mx-5 my-[0.125rem] px-3 scale-100 hover:scale-105',
 
   //Lang Text
   enText: 'font-bold text-xl sm:text-2xl my-4 text-yellow-400 text-center font-medium mx-auto text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-400',
