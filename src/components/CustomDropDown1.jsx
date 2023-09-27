@@ -29,7 +29,7 @@ const CustomDropdown1 = () => {
       <select
         value={selectedLanguage}
         onChange={chooseLanguage}
-        className="w-[2.5rem] sm:w-[3rem] h-6 sm:h-7 bg-yellow-400 border border-gray-400 rounded-md p-0 sm:p-1 mt-[0.1rem] px-auto text-xs font-bold font-nunito text-black"
+        className="w-[2.7rem] sm:w-[3rem] h-6 sm:h-7 bg-yellow-400 border border-gray-400 rounded-md p-0 sm:p-1 mt-[0.1rem] px-auto text-xs font-bold font-nunito text-black"
       >
         <option value="cz" className="text-black font-bold">CZ</option>
         <option value="en" className="text-black font-bold">EN</option>
